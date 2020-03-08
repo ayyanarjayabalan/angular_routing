@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { StudentDetailComponent } from './student-detail/student-detail.component';
 import { CourseDeatailComponent } from './course-deatail/course-deatail.component';
+import { StudentHistoryComponent } from './student-history/student-history.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CourseDeatailComponent } from './course-deatail/course-deatail.componen
     HomeComponent,
     PageNotFoundComponent,
     StudentDetailComponent,
-    CourseDeatailComponent
+    CourseDeatailComponent,
+    StudentHistoryComponent
   ],
   imports: [
     BrowserModule,

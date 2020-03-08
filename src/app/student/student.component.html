@@ -1,3 +1,8 @@
-<p>student works!</p>
-
-<router-outlet></router-outlet>
+<h1>Students</h1>
+<ng-container *ngFor="let student of students">
+    <app-student-detail [student]='student'>
+        <ng-container *ngFor="let history of student.histories">
+            <app-student-history [history]='history'></app-student-history>
+        </ng-container>
+    </app-student-detail>
+</ng-container>
