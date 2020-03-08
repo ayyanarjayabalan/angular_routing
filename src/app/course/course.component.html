@@ -1,0 +1,7 @@
+<h1>Courses</h1>
+
+<br>
+
+<ul>
+    <li *ngFor="let item of courses" (click)="getCourse(item.id)">{{item.name}}</li>
+</ul>
